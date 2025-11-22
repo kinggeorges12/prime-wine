@@ -1,6 +1,10 @@
 # prime-wine (Windows for Linux in Windows Subsystem Linux)
+
 Alternative approach to enable Prime Video HD playback on Linux, using Wine and Brave 📽️
 <img width="3824" height="1080" alt="merged_side_by_side_updated" src="https://github.com/user-attachments/assets/7c5bbf9b-fe41-4db5-b70f-2d1d027b8488" />
+
+## Use
+**See upstream repository [prime-wine](https://github.com/NelloKudo/prime-wine) for more info on use.**
 
 ## Prerequisites
 1. Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and [Docker](https://docs.docker.com/desktop/setup/install/windows-install/).
@@ -47,5 +51,6 @@ docker volume rm lutris-wine-data -f
 # Remove the local project folder
 Remove-Item -Recurse -Force "C:\Docker\Lutris"
 ```
+
 
 
